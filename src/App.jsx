@@ -1,5 +1,5 @@
 import './App.css'
-import { Contador } from './components/Contador';
+import { UsuariosComponent } from './components/UsuariosComponent';
 
 
 
@@ -8,7 +8,7 @@ export const App = () => {
   return (
     <>
       <div className='container my-5'>
-        <Contador></Contador>
+        <UsuariosComponent></UsuariosComponent>
       </div>
 
     </>
